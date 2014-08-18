@@ -21,7 +21,7 @@ def tester(number):
 
 def calculate() :
     largestnum = 2520
-    while tester(largestnum) != True:
+    while tester(largestnum) is False:
         largestnum +=2520
 
 
