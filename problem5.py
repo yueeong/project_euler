@@ -2,6 +2,7 @@ __author__ = 'yueeong'
 
 
 
+
 UPPERLIMIT = 20
 
 def tester(number):
@@ -23,6 +24,8 @@ def calculate() :
     largestnum = 2520
     while tester(largestnum) is False:
         largestnum +=2520
+
+
 
 
 calculate()
