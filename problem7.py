@@ -1,10 +1,16 @@
 __author__ = 'yueeong'
 import math
 
+'''
+By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
+
+What is the 10 001st prime number?
+
+'''
 
 def primetester(number):
     numberToCountUpTo = int(math.ceil(math.sqrt(number)))
-    #print numberToCountUpTo
+
     startingnumber = 3
     if number == 2 :
         return True
@@ -29,9 +35,9 @@ def primefinder(nthprime):
         #print "Testing : " + str(primetotest)
         if primetester(primetotest) == True :
 
-            #print str(count) + " : YES " + str(primetotest)
+            #print str(count) + " :  " + str(primetotest)
             if count == nthprime:
-                print "the 10001th prime is {}".format(primetotest)
+                print "the {}th prime is {}".format(nthprime,primetotest)
             count += 1
 
 
@@ -41,5 +47,5 @@ def primefinder(nthprime):
 
 #print primetester(25)
 
-primefinder(10001)
+primefinder(600)
 
