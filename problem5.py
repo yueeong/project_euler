@@ -16,7 +16,7 @@ def tester(number):
         if number % i == 0:
             #print str(number) + " is divisible by " +str(i)
             if i == UPPERLIMIT:
-                print str(number) + " is IT!"
+                print(str(number) + " is IT!")
                 return True
             else:
                 continue

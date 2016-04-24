@@ -13,6 +13,7 @@ Find the difference between the sum of the squares of the first one hundred natu
 '''
 
 import math
+import timeit
 
 def sumOfTheSquares(n):
     sumofnumbers = 0  #initialize the sum
@@ -30,6 +31,6 @@ def squareOfTheSum(n):
     return int(math.pow(sumofthenumbers,2))
 
 if __name__ == "__main__":
-    print  squareOfTheSum(100) - sumOfTheSquares(100)
+    print(squareOfTheSum(100) - sumOfTheSquares(100))
     #print sumOfTheSquares(10)
     #print squareOfTheSum(10)

@@ -1,6 +1,7 @@
 __author__ = 'yueeong'
 import math
 
+
 '''
 By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
 
@@ -37,7 +38,7 @@ def primefinder(nthprime):
 
             #print str(count) + " :  " + str(primetotest)
             if count == nthprime:
-                print "the {}th prime is {}".format(nthprime,primetotest)
+                print("the {}th prime is {}".format(nthprime, primetotest))
             count += 1
 
 
@@ -47,5 +48,5 @@ def primefinder(nthprime):
 
 #print primetester(25)
 
-primefinder(600)
+primefinder(1000)
 

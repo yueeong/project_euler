@@ -23,7 +23,7 @@ def allinone():
 
 def main():
 
-    print "refactor : " +  str(allinone())
+    print("refactor : " +  str(allinone()))
 
 
 if __name__ == "__main__":

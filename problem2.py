@@ -19,16 +19,12 @@ def fiboevensummer():
     while maxval < 4000000:
         maxval = fibolist[count] + fibolist[count-1]
         fibolist.append(maxval)
-        print maxval
+        print(maxval)
         if maxval % 2 == 0 & maxval < 4000000:
             evensum += maxval
         count += 1
 
-    print evensum
-
-
-
-
+    print(evensum)
 
 
 
