@@ -27,5 +27,4 @@ def fiboevensummer():
     print(evensum)
 
 
-
 fiboevensummer()
